@@ -3,6 +3,7 @@
 import os
 from financial_researcher.crew import ResearchCrew
 
+os.environ['OTEL_SDK_DISABLED'] = 'true'
 # Create output directory if it doesn't exist
 os.makedirs('output', exist_ok=True)
 
