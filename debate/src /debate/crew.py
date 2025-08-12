@@ -51,5 +51,6 @@ class Debate():
             agents=self.agents, # Automatically created by the @agent decorator
             tasks=self.tasks, # Automatically created by the @task decorator
             process=Process.sequential,
+            max_execution_time=3600, # Set to 3600 seconds (1 hour) or your desired value
             verbose=True,
         )
