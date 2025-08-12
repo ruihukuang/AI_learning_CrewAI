@@ -21,7 +21,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'motion': 'There needs to be strict laws to regulate LLMs',
+        'motion': 'It is good to work at CBA in Australia for a long time',
     }
     
     try:
