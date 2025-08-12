@@ -22,7 +22,7 @@ def run():
     print("\n\n=== FINAL REPORT ===\n\n")
     print(result.raw)
 
-    print("\n\nReport has been saved to output/report.md")
+    print("\n\nReport has been saved to output_cba/report.md")
 
 if __name__ == "__main__":
     run()
