@@ -13,7 +13,7 @@ def run():
     inputs = {
         'company': 'Apple'
     }
-
+    # another input : Commonwealth Bank of Australia
     # Create and run the crew
     result = ResearchCrew().crew().kickoff(inputs=inputs)
 
