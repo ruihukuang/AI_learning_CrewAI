@@ -12,9 +12,9 @@ def run():
     Run the research crew.
     """
     inputs = {
-        'company': 'Apple'
+        'company': 'Commonwealth Bank of Australia'
     }
-    # another input : Commonwealth Bank of Australia
+
     # Create and run the crew
     result = ResearchCrew().crew().kickoff(inputs=inputs)
 
