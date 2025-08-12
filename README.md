@@ -25,5 +25,15 @@ This process is hierarchical. There is dedicated manager agent that oversees tas
 
 ## coder folder   
 Context  
-This process is to use python code to do some calculations. The outcome could be found in https://github.com/ruihukuang/AI_platform_CrewAI/blob/main/coder/output/code_and_output.txt. This process uses docker images to run in a local container in the docker desktop. The screenshot below is about docker images.   
+This process is to use python code to do some calculations. The outcome could be found in https://github.com/ruihukuang/AI_platform_CrewAI/blob/main/coder/output/code_and_output.txt. This process enables execution of AI-generated code within a Docker container. The screenshot below is about related docker images.   
 <img width="2993" height="836" alt="image" src="https://github.com/user-attachments/assets/9763dec0-7946-40ce-bbbf-e0d6d19ed5f8" />  
+
+## engineering_team folder  
+Context  
+This process is to write code or requirements for an engineer lead, a backend developer,a frontend developer and a test developer to create and test a trading platform. The outcome could be found in https://github.com/ruihukuang/AI_platform_CrewAI/tree/main/engineering_team/output.  
+This process enables execution of AI-generated code within a Docker container for a backend developer and a test developer.   
+This process creates UI for the trading platform shown in the screenshot below.  
+<img width="2748" height="1285" alt="image" src="https://github.com/user-attachments/assets/a1f7044a-1103-4659-9293-b9c8ca864e96" />  
+
+
+
