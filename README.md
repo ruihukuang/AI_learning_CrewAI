@@ -3,7 +3,7 @@
 ## debate folder  
 Context    
 This process is to discuss an idea *It is good to work at CBA in Australia for a long time* among debators who support or argue against this idea and it is up to a judge to decide who wins and provide reasons.The outcomes for these three agents could be found in https://github.com/ruihukuang/AI_platform_CrewAI/tree/main/debate/output.    
-This process is sequential.  
+This process is sequential. Tasks are executed one after the other.   
 - The first task is related to a debator to propose this idea.  
 - The second task is related to a debator to express opposite idea.  
 - The third task is related to a judge to decide which idea is better.      
@@ -11,7 +11,7 @@ This process is sequential.
 ## financial_researcher folder  
 Context  
 This process is to write a report for a company based on serper APIs with google search APIs. The google web search could make sure a report is created based on the latest info from internet rather than just knowledge bases on AI models. The target company is Commonwealth Bank of Australia. The report for this could be found in https://github.com/ruihukuang/AI_platform_CrewAI/blob/main/financial_researcher/output_cba/report.md.  
-This process is sequential. Tasks are executed one after the other.   
+This process is sequential.      
 - The first task is related to a researcher to research the company, news and potential for a company based on serper APIs with google search APIs.    
 - The second task is related to a analyst to analyze the research findings and create a comprehensive report on this company.  
 
@@ -38,6 +38,7 @@ This process is to write code or requirements for an engineer lead, a backend de
 This process enables execution of AI-generated code within a Docker container for a backend developer and a test developer.   
 This process creates UI for the trading platform shown in the screenshot below.  
 <img width="2748" height="1285" alt="image" src="https://github.com/user-attachments/assets/a1f7044a-1103-4659-9293-b9c8ca864e96" />  
+
 
 
 
