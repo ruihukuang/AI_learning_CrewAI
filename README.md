@@ -19,8 +19,10 @@ This process is sequential. Tasks are executed one after the other.
 Context    
 This process is to find the top trending companies in the latest news in a sector, do detailed analysis, pick the best company for investment and send a push notification to my phone. The target sector is banks in Australia. The output could be found in https://github.com/ruihukuang/AI_platform_CrewAI/blob/main/stock_picker/output/decision.md. This process uses a file to preserve insights and learnings ,building knowledge over time in the long term memory, use RAG to store recent interactions and outcomes in the short term memory and use RAG to store entity info about people, places, concepts during tasks in the entity memory.   
 This process is hierarchical. There is dedicated manager agent that oversees task execution, planning, and validation, delegating subtasks to worker agents. 3 worker agents run their tasks in order.    
-- The first agent *Trending_company_finder* is to find the top trending companies in the news in a sector by searching the latest news using serper APIs with google search APIs.    
-- The second agent *financial_researcher* is to do detailed analysis given the a list of trending companies from the first agent.   
+- The first agent *Trending_company_finder* is to find the top trending companies in the news in a sector by searching the latest news using serper APIs with google search APIs. This agent could provide a json file with names, tickers, and reasons for these top trending companies.       
+- The second agent *financial_researcher* is to do detailed analysis given the a list of trending companies from the first agent.
+This agent could provide a json file with names, market_positions, future_outlooks and investment_potentials for these trending companies in terms of analysis.
+  
 - The third agent *stock_picker* is to analyze the research findings from the second agent, pick the best company for investment and send a push notification to an app in pusher on my phone with the decision and 1 sentence rationale.  
 
 ## coder folder   
@@ -34,6 +36,7 @@ This process is to write code or requirements for an engineer lead, a backend de
 This process enables execution of AI-generated code within a Docker container for a backend developer and a test developer.   
 This process creates UI for the trading platform shown in the screenshot below.  
 <img width="2748" height="1285" alt="image" src="https://github.com/user-attachments/assets/a1f7044a-1103-4659-9293-b9c8ca864e96" />  
+
 
 
 
